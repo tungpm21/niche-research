@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "niche-research",
+  "version": "1.0.0",
+  "description": "Research một ngách content YouTube trước khi lên idea: kênh cùng ngách, video vượt mức nền kênh, bảng thumbnail thắng và hụt, từ khoá từ gợi ý tìm kiếm, Google Trends và tab Xu hướng của YouTube Studio, rồi báo cáo kèm ý tưởng. Không cần API key.",
+  "author": {
+    "name": "tungpm21",
+    "email": "tungpm21@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/tungpm21/niche-research",
+  "repository": "https://github.com/tungpm21/niche-research",
+  "license": "MIT",
+  "keywords": ["youtube", "niche research", "keyword research", "google trends", "thumbnail", "content ideas"]
+}

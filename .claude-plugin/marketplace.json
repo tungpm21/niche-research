@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "niche-research",
+  "description": "YouTube niche research skill for Claude Code",
+  "owner": {
+    "name": "tungpm21"
+  },
+  "plugins": [
+    {
+      "name": "niche-research",
+      "source": "./",
+      "description": "Research một ngách content YouTube trước khi lên idea: kênh cùng ngách, video vượt nền, bảng thumbnail, từ khoá trend, YouTube Studio, báo cáo kèm ý tưởng.",
+      "version": "1.0.0"
+    }
+  ]
+}

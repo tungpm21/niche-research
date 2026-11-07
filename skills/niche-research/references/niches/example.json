@@ -1,0 +1,29 @@
+{
+  "niche": "example-home-cooking",
+  "about": "Ví dụ: video nấu ăn tại nhà tiếng Anh 8–20 phút, công thức rẻ và nhanh. Chép file này thành docs/research/niches/<ngách>.json trong project rồi sửa.",
+  "channels": [
+    {"handle": "@JoshuaWeissman", "why": "kênh lớn, format 'but better' và 'but cheaper'"},
+    {"handle": "@EthanChlebowski", "why": "giải thích vì sao công thức chạy, tiêu đề dạng câu hỏi"},
+    {"handle": "@NotAnotherCookingShow", "why": "nấu món cổ điển, nhịp chậm, hình đẹp"}
+  ],
+  "per_channel": 30,
+  "searches": [
+    {"q": "easy dinner recipes", "when": "month"},
+    {"q": "cheap meals for the week", "when": "month"},
+    {"q": "meal prep for beginners", "when": "month"},
+    {"q": "one pot dinner", "when": "month", "by": "views"},
+    {"q": "high protein recipes", "when": "year", "by": "views"}
+  ],
+  "per_search": 20,
+  "suggest": ["easy dinner", "cheap meals", "meal prep", "high protein", "air fryer"],
+  "min_length_s": 240,
+  "max_length_s": 1500,
+  "exclude_title": "asmr|mukbang|#shorts|reaction|gameplay",
+  "top": 40,
+  "trends": {
+    "how": "Google Trends, gprop=youtube (tìm kiếm trên YouTube), so tối đa 5 từ một lần",
+    "sets": [
+      ["meal prep", "easy dinner", "high protein", "air fryer", "budget meals"]
+    ]
+  }
+}
